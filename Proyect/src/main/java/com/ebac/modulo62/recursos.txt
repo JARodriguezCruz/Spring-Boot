@@ -1,0 +1,19 @@
+// Ejecutar el proyecto en Postman o navegador
+
+http://localhost:8080/usuarios
+
+POST http://localhost:8080/usuarios
+Body JSON:
+{
+  "id": 1,
+  "nombre": "Juan",
+  "email": "juan@email.com"
+}
+
+PUT http://localhost:8080/usuarios/1
+{
+  "nombre": "Juan Perez",
+  "email": "juanp@email.com"
+}
+
+DELETE http://localhost:8080/usuarios/1
